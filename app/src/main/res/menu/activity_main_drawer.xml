@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:title="Tally Book">
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_suggest"
+                android:title="理财建议"
+                android:icon="@drawable/ic_menu_suggest"
+                />
+            <item
+                android:id="@+id/nav_update"
+                android:title="检查更新"
+                android:icon="@drawable/ic_menu_update"
+                />
+            <item
+                android:id="@+id/nav_advice"
+                android:title="联系我们"
+                android:icon="@drawable/ic_menu_contact"
+                />
+            <item
+                android:id="@+id/nav_share"
+                android:title="分享"
+                android:icon="@drawable/ic_menu_share"
+                />
+            <item
+                android:id="@+id/nav_about"
+                android:title="关于"
+                android:icon="@drawable/ic_menu_about"
+                />
+    </group>
+    </item>
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:abdroid="http://schemas.android.com/apk/res/android">
+    <solid abdroid:color="#FFFFFF"/>  
+    <corners abdroid:radius="3dip"/>
+    <stroke
+        abdroid:width="1dip"
+        abdroid:color="#BDC7D8"/>
+</shape>

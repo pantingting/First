@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text_timeType"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="今天"
+            />
+        <ImageView
+            android:layout_toRightOf="@+id/text_timeType"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_top"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/time_cycle"
+            />
+        <TextView
+            android:id="@+id/text_totalZcSl"
+            android:layout_toRightOf="@+id/img_top"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支出：690.0 收入：10"/>
+    <ListView
+        android:id="@+id/listview_small"
+        android:layout_below="@+id/img_top"
+        android:layout_toRightOf="@+id/text_timeType"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</RelativeLayout>
